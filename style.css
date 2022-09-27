@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    background-color: #3D5A98;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.my-logo{
+    width: 100px;
+}
+.myList{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+
+}
+
+/* .myList li{
+ border: 1px black solid;
+ margin: 0 10px;
+ padding: 0 10px;
+} */
+
+.myList a{
+    text-decoration: none;
+    color: white;
+}
+#dropDown-menu{
+    list-style: none;
+    background-color: #3D5A98;
+    opacity: 0.8;
+    position: absolute;
+    top: 18px;
+    padding: 20px;
+    display: none;
+    cursor: pointer;
+}
+#dropDown-menu li{
+    color: white;
+    padding: 10px;
+}
+
+#service{
+    position: relative;
+}
+
+#service:hover #dropDown-menu{
+    display: block;
+}
+
+main p{
+    margin: 4%;
+}
+
